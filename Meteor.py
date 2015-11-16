@@ -23,7 +23,7 @@ pygame.init()
 size = (700, 500)
 screen = pygame.display.set_mode(size)
 
-pygame.display.set_caption("My Game")
+pygame.display.set_caption("Meteors")
 
 # Loop until the user clicks the close button.
 done = False
@@ -39,6 +39,8 @@ while not done:
             done = True
 
     # --- Game logic should go here
+
+
 
     # --- Drawing code should go here
 
