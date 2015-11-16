@@ -30,7 +30,7 @@ done = False
 
 # Used to manage how fast the screen updates
 clock = pygame.time.Clock()
-
+g
 # -------- Main Program Loop -----------
 while not done:
     # --- Main event loop
@@ -39,18 +39,20 @@ while not done:
             done = True
 
     # --- Game logic should go here
+e
 
-
-
+t
     # --- Drawing code should go here
     class Player:
-        def __init__(ship, playerColor, xPosition, yPosition):
+        def __init__(ship, playerColor, xPosition, yPosition, xChange, yChange):
             ship.playerColor = playerColor
             ship.xPosition = xPosition
             ship.yPosition = yPosition
-            pygame.draw.polygon(screen, ship.playerColor, [[ship.xPosition, ship.yPosition],[ship.xPosition - 5, ship.yPosition + 10], [ship.xPosition + 5, ship.yPosition + 10]])
+            ship.xChange = xChange
+            ship.yChange = yChange
+            pygame.draw.polygon(screen, ship.playerColor, [[ship.xPositioxtrn, ship.yPosition],[ship.xPosition - 5, ship.yPosition + 10], [ship.xPosition + 5, ship.yPosition + 10]])
 
-        def drawPlayer(ship):
+        def drawPlayer(ship):y
             pygame.draw.polygon(screen, ship.playerColor, [[ship.xPosition, ship.yPosition],[ship.xPosition - 5, ship.yPosition + 10], [ship.xPosition + 5, ship.yPosition + 10]])
     # First, clear the screen to white. Don't put other drawing commands
     # above this, or they will be erased with this command.
