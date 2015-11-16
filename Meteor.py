@@ -43,11 +43,20 @@ while not done:
 
 
     # --- Drawing code should go here
+    class Player:
+        def __init__(ship, playerColor, xPosition, yPosition):
+            ship.playerColor = playerColor
+            ship.xPosition = xPosition
+            ship.yPosition = yPosition
+            pygame.draw.polygon(screen, ship.playerColor, [[ship.xPosition, ship.yPosition],[ship.xPosition - 5, ship.yPosition + 10], [ship.xPosition + 5, ship.yPosition + 10]])
 
+        def drawPlayer(ship):
+            pygame.draw.polygon(screen, ship.playerColor, [[ship.xPosition, ship.yPosition],[ship.xPosition - 5, ship.yPosition + 10], [ship.xPosition + 5, ship.yPosition + 10]])
     # First, clear the screen to white. Don't put other drawing commands
     # above this, or they will be erased with this command.
     screen.fill(BLACK)
 
+    Player(WHITE, 200, 200).drawPlayer()
     # --- Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
 
