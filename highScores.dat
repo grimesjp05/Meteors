@@ -23,7 +23,7 @@ p10
 g7
 I14440
 sg8
-S'DAMNTI'
+S'JOHN'
 p12
 sba(ihighscore
 HighScore
@@ -32,7 +32,7 @@ p13
 g7
 I9270
 sg8
-S'STUPID'
+S'BOB'
 p15
 sba(ihighscore
 HighScore
@@ -41,7 +41,7 @@ p16
 g7
 I8500
 sg8
-S'SAMISBETTERTHANCONNER'
+S'BILL'
 p18
 sba(ihighscore
 HighScore
@@ -59,7 +59,7 @@ p22
 g7
 I7640
 sg8
-S'SONOFABITCH'
+S'JEFF'
 p24
 sba(ihighscore
 HighScore
@@ -68,7 +68,7 @@ p25
 g7
 I5950
 sg8
-S'SAMISASJSDF'
+S'CARL'
 p27
 sba(ihighscore
 HighScore
@@ -77,7 +77,7 @@ p28
 g7
 I5880
 sg8
-S'DG'
+S'WILL'
 p30
 sba(ihighscore
 HighScore
@@ -86,7 +86,7 @@ p31
 g7
 I5140
 sg8
-S'JORDAN'
+S'FRED'
 p33
 sba(ihighscore
 HighScore
@@ -95,6 +95,6 @@ p34
 g7
 I4700
 sg8
-S'SAM'
+S'JIM'
 p36
 sbasb.
